@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="D-PRD-00  Pi Frox Demonstrator">ac34dbf147d09210a266daf1d16d439f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-08-29 12:53:17</sys_created_on>
+        <sys_id>8ab45b3547d09210a266daf1d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8ab45b3547d09210a266daf1d16d4357</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-08-29 12:53:17</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
