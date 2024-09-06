@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>piFroxSemaphoreLoginTest</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// // fetch the System properties to trigger the interface
+var uri = gs.getProperty('pi.frox.semaphore.uri');
+var auth = gs.getProperty('pi.frox.semaphore.auth');
+var pass = gs.getProperty('pi.frox.semaphore.password');
+
+// Sample code to test Semaphore login using MID Server
+var requestBody;
+var responseBody;
+var status;
+var sm;
+try{
+	sm = new sn_ws.RESTMessageV2("pi.frox.semaphore.login", "POST  /auth/login");  // Might throw exception if message doesn't exist or not visible due to scope.
+	sm.setEndpoint('http://xubuntu2404:3000/api/auth/login');
+	sm.setRequestBody("{\"auth\": \"david.ogea\",\"password\": \"ku3shich4Se\"}");
+	sm.setMIDServer('Ubuntu_Mid_Server');
+	response = sm.executeAsync(); // Might throw exception if http connection timed out or some issue with sending request itself because of encryption/decryption of password.
+
+	response.waitForResponse(60); // In seconds. Wait at most 60 seconds to get response from ECC Queue/Mid Server //Might throw exception timing out waiting for response in ECC queue.
+
+	responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+	status = response.getStatusCode();
+} catch(ex) {
+	responseBody = ex.getMessage();
+	status = '500';
+} finally {
+	requestBody = sm ? sm.getRequestBody():null;
+}
+gs.info("Request Body: " + requestBody);
+gs.info("Response: " + responseBody);
+gs.info("HTTP Status: " + status);]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-06 15:31:23</sys_created_on>
+        <sys_id>0c75816c47a01210a266daf1d16d438a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>piFroxSemaphoreLoginTest</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_script_fix_0c75816c47a01210a266daf1d16d438a</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-06 15:38:17</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

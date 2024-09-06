@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.piFroxUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>piFroxUtils</name>
+        <script><![CDATA[var piFroxUtils = Class.create();
+piFroxUtils.prototype = {
+    initialize: function() {
+    },
+
+    type: 'piFroxUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-06 14:18:36</sys_created_on>
+        <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>piFroxUtils</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-06 14:20:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

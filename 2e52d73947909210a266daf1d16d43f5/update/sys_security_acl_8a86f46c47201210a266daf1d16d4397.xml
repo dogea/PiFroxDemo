@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>piFroxUtilsAjax</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-06 14:25:27</sys_created_on>
+        <sys_id>8a86f46c47201210a266daf1d16d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>piFroxUtilsAjax</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_security_acl_8a86f46c47201210a266daf1d16d4397</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-06 14:25:27</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+  "auth": "david.ogea",&#13;
+  "password": "ku3shich4Se"&#13;
+}</content>
+        <function_name>POST  /auth/login</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>pi.frox.semaphore.login [ POST  /auth/login ]</qualified_name>
+        <rest_endpoint>${uri}auth/login</rest_endpoint>
+        <rest_message display_value="pi.frox.semaphore.login">bb5ef4a047a01210a266daf1d16d4376</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-06 15:06:37</sys_created_on>
+        <sys_id>4dfff06047a01210a266daf1d16d4389</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>POST  /auth/login</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_4dfff06047a01210a266daf1d16d4389</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-06 15:21:41</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Ubuntu_Mid_Server">0341a50d47589210a266daf1d16d43fd</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
