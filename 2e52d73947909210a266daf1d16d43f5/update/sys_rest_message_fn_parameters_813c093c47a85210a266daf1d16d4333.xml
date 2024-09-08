@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>project_id</name>
+        <rest_message_function display_value="GET /project/{project_id}">4f8b89b847a85210a266daf1d16d4339</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-07 10:38:53</sys_created_on>
+        <sys_id>813c093c47a85210a266daf1d16d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>project_id</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_813c093c47a85210a266daf1d16d4333</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-07 10:38:53</sys_updated_on>
+        <type>string</type>
+        <value>1</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>cookie</name>
+        <rest_message_function display_value="GET /project/{project_id}">4f8b89b847a85210a266daf1d16d4339</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-07 10:48:57</sys_created_on>
+        <sys_id>035e053047e85210a266daf1d16d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cookie</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_035e053047e85210a266daf1d16d43f6</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-07 10:48:57</sys_updated_on>
+        <type>string</type>
+        <value>semaphore=MTcyNTcwNjEwOHxKRUVZYmVMNTg1TW5vc1NjQlRaS01nT0dLaFNFbUpfS19WbV93djhIdUs1eVRLMHNmQ3JiX19ZMlloalJ2TnpUNlpXajlRVTNPUzBLMlp3SGdIRS1mQT09fB2z_Nrc_3IPe2YwaecTzOa8-Qgu0EtRAIFvxOo7Z3az</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

@@ -3,25 +3,25 @@
         <access>package_private</access>
         <authentication_type>no_authentication</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Semaphore">906ffce047a01210a266daf1d16d4398</basic_auth_profile>
+        <basic_auth_profile/>
         <basic_auth_user/>
-        <description>Authentication, Logout &amp; API Tokens</description>
-        <name>pi.frox.semaphore.authentication</name>
+        <description>Everything related to a project</description>
+        <name>pi.frox.semaphore.project</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>${uri}auth/login</rest_endpoint>
+        <rest_endpoint>${uri}project/login/${project_id}</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>david.ogea</sys_created_by>
-        <sys_created_on>2024-09-06 15:06:37</sys_created_on>
-        <sys_id>bb5ef4a047a01210a266daf1d16d4376</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>pi.frox.semaphore.authentication</sys_name>
+        <sys_created_on>2024-09-07 10:35:44</sys_created_on>
+        <sys_id>5cda09b847a85210a266daf1d16d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pi.frox.semaphore.project</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
-        <sys_update_name>sys_rest_message_bb5ef4a047a01210a266daf1d16d4376</sys_update_name>
+        <sys_update_name>sys_rest_message_5cda09b847a85210a266daf1d16d431e</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-07 10:34:39</sys_updated_on>
+        <sys_updated_on>2024-09-07 10:35:44</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
