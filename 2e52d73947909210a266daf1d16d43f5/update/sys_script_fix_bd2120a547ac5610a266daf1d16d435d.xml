@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>piFroxSemaphoreSetArgumentsExtraVars</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Fetch variables for arguments exta vars
+var extraVars = [];
+var arr = ['--extra-vars,'];
+var ritm = new GlideRecord('sc_req_item');
+ritm.get('be2623b147549210a266daf1d16d4330');
+for (var i in ritm.variables) {
+	if (i != 'pi_frox_body') {
+		// arr.push(i + '=' + ritm.variables[i]);
+		arr = arr + ' ' + i + '=' + '\'' + ritm.variables[i] + '\'';
+	}
+}
+extraVars.push(arr);
+gs.info(JSON.stringify(extraVars));
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-09 15:26:41</sys_created_on>
+        <sys_id>bd2120a547ac5610a266daf1d16d435d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>piFroxSemaphoreSetArgumentsExtraVars</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_script_fix_bd2120a547ac5610a266daf1d16d435d</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-09 20:33:48</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
