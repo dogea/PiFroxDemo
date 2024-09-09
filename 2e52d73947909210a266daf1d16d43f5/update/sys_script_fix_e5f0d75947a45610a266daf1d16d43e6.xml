@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>piFroxSemaphoreStartTaskTest</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[// Initialize REST API call
+var projectId = '1';
+var payload = {};
+payload.template_id = 1;
+payload.debug = false;
+payload.dry_run = false;
+payload.diff = false;
+payload.playbook = 'apache.site.initialize.yml';
+payload.environment = '{}';
+payload.limit = '';
+
+// Execute REST API call
+var pfu = new piFroxUtils();
+gs.info(pfu.semStartJob(projectId, payload));]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-09 09:36:17</sys_created_on>
+        <sys_id>e5f0d75947a45610a266daf1d16d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>piFroxSemaphoreStartTaskTest</sys_name>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name>sys_script_fix_e5f0d75947a45610a266daf1d16d43e6</sys_update_name>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-09 09:36:17</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
