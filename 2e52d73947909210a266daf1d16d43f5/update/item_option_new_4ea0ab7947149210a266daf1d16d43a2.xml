@@ -41,7 +41,7 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>pi_frox_target</name>
+        <name>pi_frox_target_ref</name>
         <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -80,14 +80,14 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-08-29 13:47:22</sys_created_on>
         <sys_id>4ea0ab7947149210a266daf1d16d43a2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Target</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>pi_frox_target_ref</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>item_option_new_4ea0ab7947149210a266daf1d16d43a2</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-08-29 13:47:22</sys_updated_on>
+        <sys_updated_on>2024-09-11 20:00:36</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

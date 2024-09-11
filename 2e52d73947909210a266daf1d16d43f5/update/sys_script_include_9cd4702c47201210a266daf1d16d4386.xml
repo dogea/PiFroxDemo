@@ -76,8 +76,27 @@ piFroxUtils.prototype = {
     },
 
     // this function fetches the variables from the Requested Item and turns it into a stringified JSON object for the environment elemnet on SemaphoreUI REST API
-    _semSetAttributes: function() {
-
+    _semSetRequestBody: function(playbook, rSysId) {
+        // Fetch variables for the environment
+        var attr = {};
+        var ritm = new GlideRecord('sc_req_item');
+        ritm.get(rSysId);
+        for (var i in ritm.variables) {
+            if (i != 'pi_frox_body') {
+                attr[i] = ritm.variables[i].toString();
+            }
+        }
+        var jAttr = JSON.stringify(attr);
+        // Build HTML Body for REST API Payload
+        var body = {};
+        body.template_id = 1;
+        body.debug = false;
+        body.dry_run = false;
+        body.diff = false;
+        body.playbook = playbook;
+        body.environment = jAttr;
+        body.limit = '';
+        return body;
     },
 
     type: 'piFroxUtils'
@@ -86,13 +105,13 @@ piFroxUtils.prototype = {
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-06 14:18:36</sys_created_on>
         <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>piFroxUtils</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-10 08:12:11</sys_updated_on>
+        <sys_updated_on>2024-09-11 18:44:12</sys_updated_on>
     </sys_script_include>
 </record_update>

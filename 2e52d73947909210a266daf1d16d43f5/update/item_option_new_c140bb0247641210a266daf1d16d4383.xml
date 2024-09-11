@@ -24,9 +24,9 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>If ommited, the front will be black by default</help_text>
-        <hidden>false</hidden>
-        <include_none>true</include_none>
+        <help_text/>
+        <hidden>true</hidden>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>pi_frox_font_color</name>
-        <order>500</order>
+        <name>pi_frox_target</name>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Font Color</question_text>
+        <question_text>Target String</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -69,25 +69,25 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>david.ogea</sys_created_by>
-        <sys_created_on>2024-08-29 13:38:48</sys_created_on>
-        <sys_id>08ee93b547149210a266daf1d16d433c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Font Color</sys_name>
+        <sys_created_on>2024-09-11 19:48:43</sys_created_on>
+        <sys_id>c140bb0247641210a266daf1d16d4383</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Target String</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
-        <sys_update_name>item_option_new_08ee93b547149210a266daf1d16d433c</sys_update_name>
+        <sys_update_name>item_option_new_c140bb0247641210a266daf1d16d4383</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 19:47:12</sys_updated_on>
+        <sys_updated_on>2024-09-11 19:54:43</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=08ee93b547149210a266daf1d16d433c"/>
-    <fx_price action="delete_multiple" query="id=08ee93b547149210a266daf1d16d433c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c140bb0247641210a266daf1d16d4383"/>
+    <fx_price action="delete_multiple" query="id=c140bb0247641210a266daf1d16d4383"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>08ee93b547149210a266daf1d16d433c</id>
+        <id>c140bb0247641210a266daf1d16d4383</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>david.ogea</sys_created_by>
-        <sys_created_on>2024-08-29 13:38:48</sys_created_on>
-        <sys_id>2c2fdf7547149210a266daf1d16d4371</sys_id>
+        <sys_created_on>2024-09-11 19:48:43</sys_created_on>
+        <sys_id>d670374247641210a266daf1d16d435a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-08-29 13:38:48</sys_updated_on>
+        <sys_updated_on>2024-09-11 19:48:43</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>08ee93b547149210a266daf1d16d433c</id>
+        <id>c140bb0247641210a266daf1d16d4383</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>david.ogea</sys_created_by>
-        <sys_created_on>2024-08-29 13:38:48</sys_created_on>
-        <sys_id>e02fdf7547149210a266daf1d16d4371</sys_id>
+        <sys_created_on>2024-09-11 19:48:43</sys_created_on>
+        <sys_id>9270fb0247641210a266daf1d16d43a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-08-29 13:38:48</sys_updated_on>
+        <sys_updated_on>2024-09-11 19:48:43</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
