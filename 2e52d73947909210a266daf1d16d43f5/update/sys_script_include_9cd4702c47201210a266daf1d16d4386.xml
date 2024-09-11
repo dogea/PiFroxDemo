@@ -9,14 +9,15 @@
         <name>piFroxUtils</name>
         <script><![CDATA[var piFroxUtils = Class.create();
 piFroxUtils.prototype = {
-        initialize: function() {
-            // fetch the System properties to trigger the interface
-            this.uri = gs.getProperty('pi.frox.semaphore.uri');
-            this.auth = gs.getProperty('pi.frox.semaphore.auth');
-            this.pass = gs.getProperty('pi.frox.semaphore.password');
-            this.mid = gs.getProperty('pi.frox.semaphore.midserver');
+    initialize: function() {
+        // fetch the System properties to trigger the interface
+        this.uri = gs.getProperty('pi.frox.semaphore.uri');
+        this.auth = gs.getProperty('pi.frox.semaphore.auth');
+        this.pass = gs.getProperty('pi.frox.semaphore.password');
+        this.mid = gs.getProperty('pi.frox.semaphore.midserver');
     },
 
+    // This function triggers the the task on the SemaphoreUI REST API
     semStartJob: function(projectId, payload) {
         // Initialize variables for the REST API call
         var responseHeader;
@@ -42,6 +43,7 @@ piFroxUtils.prototype = {
         return status;
     },
 
+    // This function triggers the login to the SemaphoreUI REST API and stores the session cookie for subsequent calls
     _semLogin: function() {
         // Initialize variables for the REST API call
         var requestBody = {};
@@ -73,19 +75,24 @@ piFroxUtils.prototype = {
         return cookie;
     },
 
+    // this function fetches the variables from the Requested Item and turns it into a stringified JSON object for the environment elemnet on SemaphoreUI REST API
+    _semSetAttributes: function() {
+
+    },
+
     type: 'piFroxUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-06 14:18:36</sys_created_on>
         <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>piFroxUtils</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-09 09:23:46</sys_updated_on>
+        <sys_updated_on>2024-09-10 08:12:11</sys_updated_on>
     </sys_script_include>
 </record_update>
