@@ -75,7 +75,7 @@ piFroxUtils.prototype = {
         return cookie;
     },
 
-    // this function fetches the variables from the Requested Item and turns it into a stringified JSON object for the environment elemnet on SemaphoreUI REST API
+    // This function fetches the variables from the Requested Item and turns it into a stringified JSON object for the environment elemnet on SemaphoreUI REST API
     _semSetRequestBody: function(playbook, rSysId) {
         // Fetch variables for the environment
         var attr = {};
@@ -99,19 +99,28 @@ piFroxUtils.prototype = {
         return body;
     },
 
+	// This function returns the Ansible playbook from the Requested Item variables
+	_semGetPlaybook: function(ritmSysId) {
+		var playbook = '';
+		var ritm = new GlideRecord('sc_req_item');
+		ritm.get(ritmSysId);
+		playbook = ritm.variables.pi_frox_playbook;
+		return playbook;
+	},
+
     type: 'piFroxUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-06 14:18:36</sys_created_on>
         <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>piFroxUtils</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 18:44:12</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:41:15</sys_updated_on>
     </sys_script_include>
 </record_update>

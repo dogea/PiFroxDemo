@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=777781000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=955928000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>pi_frox_ansible_request_flow</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"parent","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request","parent","request_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request_item"]}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request_item"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request","parent","request_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"parent","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item.parent.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{}},{"name":"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68.Record.parent.sys_id","label":"1 - Create Task➛Catalog Task Record➛Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"e1ad1ca6-593f-4d23-a4ad-d42464804f89":["requested_item_sys_id"]}}]</label_cache>
         <master_snapshot>032429db47d41210a266daf1d16d434a</master_snapshot>
         <name>pi_frox_semaphore_request_flow</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5fb229d747d41210a266daf1d16d43bf</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>pi_frox_semaphore_request_flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_hub_flow_5fb229d747d41210a266daf1d16d43bf</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5fb229d747d41210a266daf1d16d43bf"/>
@@ -76,10 +76,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:16</sys_created_on>
         <sys_id>e024a5db47d41210a266daf1d16d43a4</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:23</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -164,14 +164,14 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:16</sys_created_on>
         <sys_id>2c24a5db47d41210a266daf1d16d439b</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>67</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -248,14 +248,14 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:16</sys_created_on>
         <sys_id>9424ed5b47d41210a266daf1d16d4329</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -274,6 +274,7 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=5fb229d747d41210a266daf1d16d43bf^sys_idNOT IN0fa9370247a41210a266daf1d16d434e,6424a5db47d41210a266daf1d16d43e6,e424a5db47d41210a266daf1d16d43b8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="pi_frox_semaphore_request_action">b609f3ce47641210a266daf1d16d438e</action_type>
         <action_type_parent display_value="pi_frox_semaphore_request_action">9e78f30e47641210a266daf1d16d43d5</action_type_parent>
         <attributes/>
@@ -287,14 +288,40 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:28:54</sys_created_on>
         <sys_id>0fa9370247a41210a266daf1d16d434e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 22:05:34</sys_updated_on>
         <ui_id>e1ad1ca6-593f-4d23-a4ad-d42464804f89</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0fa9370247a41210a266daf1d16d434e"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=0fa9370247a41210a266daf1d16d434e"/>
+    <sys_element_mapping action="delete_multiple" query="id=0fa9370247a41210a266daf1d16d434e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item_sys_id</field>
+        <id>0fa9370247a41210a266daf1d16d434e</id>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-13 21:23:22</sys_created_on>
+        <sys_id>dc59de3e47241210a266daf1d16d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-13 21:23:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e</table>
+        <value>{{1f42cf6f-bbb4-49ca-95d7-7c4c84621e68.Record.parent.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0fa9370247a41210a266daf1d16d434e^sys_idNOT INecae967647641210a266daf1d16d4390"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>playbook</input_name>
+        <instance>0fa9370247a41210a266daf1d16d434e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"playbook":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar ritm \u003d fd_data.trigger.request_item.sys_id;\nvar f \u003d new piFroxUtils();\nvar pBook \u003d f._semGetPlaybook(ritm);\nreturn pBook;"}}</script>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-13 21:46:35</sys_created_on>
+        <sys_id>ecae967647641210a266daf1d16d4390</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-13 21:58:06</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0fa9370247a41210a266daf1d16d434e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -311,10 +338,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:17</sys_created_on>
         <sys_id>6424a5db47d41210a266daf1d16d43e6</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 22:05:34</sys_updated_on>
         <ui_id>dc05d72e-caad-43b9-b93e-0ddcf0b22753</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6424a5db47d41210a266daf1d16d43e6"/>
@@ -351,10 +378,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:16</sys_created_on>
         <sys_id>e424a5db47d41210a266daf1d16d43b8</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 22:05:34</sys_updated_on>
         <ui_id>1f42cf6f-bbb4-49ca-95d7-7c4c84621e68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e424a5db47d41210a266daf1d16d43b8"/>
@@ -481,7 +508,7 @@
         <description>Flow deigned to automate triggering of Ansible Playbook from a Service Catalog Request</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>pi_frox_ansible_request_flow</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"parent","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request","parent","request_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request_item"]}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}}]</label_cache>
+        <label_cache>[{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Catalog Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request_item"]}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request","parent","request_item"]},"attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.parent","label":"Trigger - Service Catalog➛Requested Item Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"parent","usedInstances":{"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68":["request"]}},{"name":"Service Catalog_1.request_item.parent.sys_id","label":"Trigger - Service Catalog➛Requested Item Record➛Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{}},{"name":"1f42cf6f-bbb4-49ca-95d7-7c4c84621e68.Record.parent.sys_id","label":"1 - Create Task➛Catalog Task Record➛Parent➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"e1ad1ca6-593f-4d23-a4ad-d42464804f89":["requested_item_sys_id"]}}]</label_cache>
         <master>true</master>
         <name>pi_frox_semaphore_request_flow</name>
         <natlang/>
@@ -498,7 +525,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>032429db47d41210a266daf1d16d434a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -506,7 +533,7 @@
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:22</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=032429db47d41210a266daf1d16d434a"/>
@@ -521,10 +548,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:28</sys_created_on>
         <sys_id>db2429db47d41210a266daf1d16d43ac</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:15</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:23</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -609,14 +636,14 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:27</sys_created_on>
         <sys_id>1b2429db47d41210a266daf1d16d434c</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -693,14 +720,14 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:28</sys_created_on>
         <sys_id>df2429db47d41210a266daf1d16d4385</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -733,10 +760,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:28</sys_created_on>
         <sys_id>532429db47d41210a266daf1d16d43a4</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:22</sys_updated_on>
         <ui_id>1f42cf6f-bbb4-49ca-95d7-7c4c84621e68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=532429db47d41210a266daf1d16d43a4"/>
@@ -797,6 +824,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=532429db47d41210a266daf1d16d43a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="pi_frox_semaphore_request_action">b609f3ce47641210a266daf1d16d438e</action_type>
         <action_type_parent display_value="pi_frox_semaphore_request_action">9e78f30e47641210a266daf1d16d43d5</action_type_parent>
         <attributes/>
@@ -810,14 +838,40 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:29:14</sys_created_on>
         <sys_id>7fb9f70247a41210a266daf1d16d43a2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:22</sys_updated_on>
         <ui_id>e1ad1ca6-593f-4d23-a4ad-d42464804f89</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7fb9f70247a41210a266daf1d16d43a2"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=7fb9f70247a41210a266daf1d16d43a2"/>
+    <sys_element_mapping action="delete_multiple" query="id=7fb9f70247a41210a266daf1d16d43a2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item_sys_id</field>
+        <id>7fb9f70247a41210a266daf1d16d43a2</id>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-13 21:46:52</sys_created_on>
+        <sys_id>a4be5a7647641210a266daf1d16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-13 21:46:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e</table>
+        <value>{{1f42cf6f-bbb4-49ca-95d7-7c4c84621e68.Record.parent.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7fb9f70247a41210a266daf1d16d43a2^sys_idNOT IN6cbe5a7647641210a266daf1d16d4328"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>playbook</input_name>
+        <instance>7fb9f70247a41210a266daf1d16d43a2</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"playbook":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar ritm \u003d fd_data.trigger.request_item.sys_id;\nvar f \u003d new piFroxUtils();\nvar pBook \u003d f._semGetPlaybook(ritm);\nreturn pBook;"}}</script>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-13 21:46:52</sys_created_on>
+        <sys_id>6cbe5a7647641210a266daf1d16d4328</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-13 21:58:21</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7fb9f70247a41210a266daf1d16d43a2"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -834,10 +888,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:28</sys_created_on>
         <sys_id>972429db47d41210a266daf1d16d43ab</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:29:14</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:58:22</sys_updated_on>
         <ui_id>dc05d72e-caad-43b9-b93e-0ddcf0b22753</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=972429db47d41210a266daf1d16d43ab"/>
@@ -922,17 +976,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"ab2429db47d41210a266daf1d16d43bc","name":"plan","plan_signature":null}}</plan>
         <plan_id>5fb229d747d41210a266daf1d16d43bf</plan_id>
-        <snapshot>032429db47d41210a266daf1d16d434a</snapshot>
+        <snapshot>aaf2ea7e47641210a266daf1d16d432b</snapshot>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-02 20:32:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ab2429db47d41210a266daf1d16d43bc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-11 20:23:05</sys_updated_on>
+        <sys_updated_on>2024-09-13 21:46:54</sys_updated_on>
         <trigger display_value="">a32429db47d41210a266daf1d16d43bc</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5fb229d747d41210a266daf1d16d43bf"/>
