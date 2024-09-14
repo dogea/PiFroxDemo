@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>true</ih_action>
         <internal_name>pi_frox_semaphore_request_action</internal_name>
-        <label_cache>[{"name":"{{action.request_body}}","label":"action➛playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"1bf523af-65a2-4139-bb45-cc7d70a5003a"}},{"name":"{{action.playbook}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.requested_item_sys_id}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.playbook1}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5cc7bb21-878a-4edc-a964-1d112619e316"}},{"name":"{{action.requested_item_sys_id1}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"049665ca-b9d0-4c12-aaaf-5f5a49404c2c"}},{"name":"{{step[a102c238-5530-483e-b197-caafe31e0527].rbody}}","label":"step➛Script step➛rBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.request_body}}","label":"action➛playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"1bf523af-65a2-4139-bb45-cc7d70a5003a"}},{"name":"{{action.playbook}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.requested_item_sys_id}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.playbook1}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5cc7bb21-878a-4edc-a964-1d112619e316"}},{"name":"{{action.requested_item_sys_id1}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"049665ca-b9d0-4c12-aaaf-5f5a49404c2c"}},{"name":"{{action.template_id}}","label":"action➛Template ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a102c238-5530-483e-b197-caafe31e0527].rbody}}","label":"step➛Script step➛rBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>b609f3ce47641210a266daf1d16d438e</master_snapshot>
         <name>pi_frox_semaphore_request_action</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e78f30e47641210a266daf1d16d43d5</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>pi_frox_semaphore_request_action</sys_name>
         <sys_overrides/>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9e78f30e47641210a266daf1d16d43d5</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:28</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -90,10 +90,10 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-13 20:28:19</sys_created_on>
         <sys_id>02bccef647e01210a266daf1d16d43e0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:11</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02bccef647e01210a266daf1d16d43e0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -118,13 +118,13 @@
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-13 20:28:20</sys_created_on>
         <sys_id>debccef647e01210a266daf1d16d43ff</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:11</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // Retrieve the Playbook and the Requested Item Sys ID to generate the Request Body&#13;
 var pfu = new piFroxUtils();&#13;
-outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, inputs.var_requested_item_sys_id));&#13;
+outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, inputs.var_requested_item_sys_id, inputs.var_template_id));&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -202,10 +202,105 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <table>var__m_sys_hub_step_ext_input_02bccef647e01210a266daf1d16d43e0</table>
         <value>{{action.requested_item_sys_id}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>var_template_id</field>
+        <id>02bccef647e01210a266daf1d16d43e0</id>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:28</sys_created_on>
+        <sys_id>a09693c347601210a266daf1d16d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_02bccef647e01210a266daf1d16d43e0</table>
+        <value>{{action.template_id}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_02bccef647e01210a266daf1d16d43e0^id=02bccef647e01210a266daf1d16d43e0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=02bccef647e01210a266daf1d16d43e0"/>
     <sys_translated_text action="delete_multiple" query="documentkey=02bccef647e01210a266daf1d16d43e0"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=02bccef647e01210a266daf1d16d43e0^sys_idNOT IN2b5e8aba47e01210a266daf1d16d43b1,335e8aba47e01210a266daf1d16d43b5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=02bccef647e01210a266daf1d16d43e0^sys_idNOT IN149693c347601210a266daf1d16d43ef,2b5e8aba47e01210a266daf1d16d43b1,335e8aba47e01210a266daf1d16d43b5"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>var_template_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">02bccef647e01210a266daf1d16d43e0</model>
+        <model_id>02bccef647e01210a266daf1d16d43e0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_02bccef647e01210a266daf1d16d43e0</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:28</sys_created_on>
+        <sys_id>149693c347601210a266daf1d16d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -939,7 +1034,91 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_updated_on>2024-09-13 20:18:38</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_4d5657de47201210a266daf1d16d43c2"/>
-    <sys_hub_action_input action="delete_multiple" query="model=9e78f30e47641210a266daf1d16d43d5^sys_idNOT IN339e42fa47e01210a266daf1d16d4376,40ae42fa47e01210a266daf1d16d437b"/>
+    <sys_hub_action_input action="delete_multiple" query="model=9e78f30e47641210a266daf1d16d43d5^sys_idNOT IN33461f8347601210a266daf1d16d4300,339e42fa47e01210a266daf1d16d4376,40ae42fa47e01210a266daf1d16d437b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=36759ea2-e30b-40cf-945f-55b2ae36026c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>template_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Template ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="pi_frox_semaphore_request_action">9e78f30e47641210a266daf1d16d43d5</model>
+        <model_id>9e78f30e47641210a266daf1d16d43d5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_9e78f30e47641210a266daf1d16d43d5</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:28:20</sys_created_on>
+        <sys_id>33461f8347601210a266daf1d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:28:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=33461f8347601210a266daf1d16d4300"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1261,14 +1440,14 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:09</sys_created_on>
         <sys_id>b209b3ce47641210a266daf1d16d43d4</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:26</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1295,7 +1474,7 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_updated_on>2024-09-11 20:26:09</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3209f3ce47641210a266daf1d16d4375"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e78f30e47641210a266daf1d16d43d5^sys_idNOT IN40ae42fa47e01210a266daf1d16d437a,c4ae42fa47e01210a266daf1d16d437e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9e78f30e47641210a266daf1d16d43d5^sys_idNOT IN40ae42fa47e01210a266daf1d16d437a,c4ae42fa47e01210a266daf1d16d437e,f3461f8347601210a266daf1d16d4306"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>playbook</element>
         <help/>
@@ -1339,6 +1518,29 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
         <sys_updated_on>2024-09-13 20:36:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>template_id</element>
+        <help/>
+        <hint/>
+        <label>Template ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_9e78f30e47641210a266daf1d16d43d5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:28:20</sys_created_on>
+        <sys_id>f3461f8347601210a266daf1d16d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:28:20</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1395,17 +1597,17 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="pi_frox_semaphore_request_action">9e78f30e47641210a266daf1d16d43d5</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8709f3ce47641210a266daf1d16d43dc","name":"plan","plan_signature":null}}</plan>
-        <snapshot>23f492b647241210a266daf1d16d4374</snapshot>
+        <snapshot>36a697c347601210a266daf1d16d43a1</snapshot>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8709f3ce47641210a266daf1d16d43dc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:29</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:56</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1422,7 +1624,7 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <description/>
         <flow_priority/>
         <internal_name>pi_frox_semaphore_request_action</internal_name>
-        <label_cache>[{"name":"{{action.request_body}}","label":"action➛playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"1bf523af-65a2-4139-bb45-cc7d70a5003a"}},{"name":"{{action.playbook}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.requested_item_sys_id}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.playbook1}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5cc7bb21-878a-4edc-a964-1d112619e316"}},{"name":"{{action.requested_item_sys_id1}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"049665ca-b9d0-4c12-aaaf-5f5a49404c2c"}},{"name":"{{step[a102c238-5530-483e-b197-caafe31e0527].rbody}}","label":"step➛Script step➛rBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.request_body}}","label":"action➛playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"1bf523af-65a2-4139-bb45-cc7d70a5003a"}},{"name":"{{action.playbook}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.requested_item_sys_id}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.playbook1}}","label":"action➛Playbook","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"5cc7bb21-878a-4edc-a964-1d112619e316"}},{"name":"{{action.requested_item_sys_id1}}","label":"action➛Requested Item Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"049665ca-b9d0-4c12-aaaf-5f5a49404c2c"}},{"name":"{{action.template_id}}","label":"action➛Template ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a102c238-5530-483e-b197-caafe31e0527].rbody}}","label":"step➛Script step➛rBody","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>pi_frox_semaphore_request_action</name>
         <natlang/>
@@ -1434,7 +1636,7 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b609f3ce47641210a266daf1d16d438e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1442,7 +1644,7 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 20:52:19</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1953,10 +2155,10 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-13 20:41:56</sys_created_on>
         <sys_id>d1df467e47e01210a266daf1d16d4393</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:27</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1df467e47e01210a266daf1d16d4393"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1967,13 +2169,13 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-13 20:41:56</sys_created_on>
         <sys_id>a5df467e47e01210a266daf1d16d43bc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:27</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
         <value>(function execute(inputs, outputs) {&#13;
 // Retrieve the Playbook and the Requested Item Sys ID to generate the Request Body&#13;
 var pfu = new piFroxUtils();&#13;
-outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, inputs.var_requested_item_sys_id));&#13;
+outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, inputs.var_requested_item_sys_id, inputs.var_template_id));&#13;
 })(inputs, outputs);&#13;
 </value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -2041,10 +2243,105 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <table>var__m_sys_hub_step_ext_input_d1df467e47e01210a266daf1d16d4393</table>
         <value>{{action.requested_item_sys_id}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>var_template_id</field>
+        <id>d1df467e47e01210a266daf1d16d4393</id>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:54</sys_created_on>
+        <sys_id>7aa697c347601210a266daf1d16d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d1df467e47e01210a266daf1d16d4393</table>
+        <value>{{action.template_id}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d1df467e47e01210a266daf1d16d4393^id=d1df467e47e01210a266daf1d16d4393"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d1df467e47e01210a266daf1d16d4393"/>
     <sys_translated_text action="delete_multiple" query="documentkey=d1df467e47e01210a266daf1d16d4393"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=d1df467e47e01210a266daf1d16d4393^sys_idNOT INe5df467e47e01210a266daf1d16d43b4,eddf467e47e01210a266daf1d16d4396"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d1df467e47e01210a266daf1d16d4393^sys_idNOT IN3aa697c347601210a266daf1d16d4353,e5df467e47e01210a266daf1d16d43b4,eddf467e47e01210a266daf1d16d4396"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>var_template_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>var_template_id</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d1df467e47e01210a266daf1d16d4393</model>
+        <model_id>d1df467e47e01210a266daf1d16d4393</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d1df467e47e01210a266daf1d16d4393</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:54</sys_created_on>
+        <sys_id>3aa697c347601210a266daf1d16d4353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2320,7 +2617,91 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=b609f3ce47641210a266daf1d16d438e^sys_idNOT IN55df467e47e01210a266daf1d16d4384,dddf467e47e01210a266daf1d16d437e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=b609f3ce47641210a266daf1d16d438e^sys_idNOT IN22a697c347601210a266daf1d16d4348,55df467e47e01210a266daf1d16d4384,dddf467e47e01210a266daf1d16d437e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=36759ea2-e30b-40cf-945f-55b2ae36026c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>template_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Template ID</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="pi_frox_semaphore_request_action">b609f3ce47641210a266daf1d16d438e</model>
+        <model_id>b609f3ce47641210a266daf1d16d438e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:53</sys_created_on>
+        <sys_id>22a697c347601210a266daf1d16d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=22a697c347601210a266daf1d16d4348"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2642,14 +3023,14 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:10</sys_created_on>
         <sys_id>cb09f3ce47641210a266daf1d16d4398</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:04:28</sys_updated_on>
+        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2676,7 +3057,7 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_updated_on>2024-09-11 20:26:10</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=cb09f3ce47641210a266daf1d16d43a2"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e^sys_idNOT IN19df467e47e01210a266daf1d16d4387,55df467e47e01210a266daf1d16d4383"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e^sys_idNOT IN19df467e47e01210a266daf1d16d4387,55df467e47e01210a266daf1d16d4383,a2a697c347601210a266daf1d16d434b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>requested_item_sys_id</element>
         <help/>
@@ -2720,6 +3101,29 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
         <sys_updated_on>2024-09-13 20:41:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>template_id</element>
+        <help/>
+        <hint/>
+        <label>Template ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_b609f3ce47641210a266daf1d16d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-14 20:29:53</sys_created_on>
+        <sys_id>a2a697c347601210a266daf1d16d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-14 20:29:53</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

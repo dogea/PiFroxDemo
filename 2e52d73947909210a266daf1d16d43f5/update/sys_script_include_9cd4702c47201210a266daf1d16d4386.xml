@@ -76,7 +76,7 @@ piFroxUtils.prototype = {
     },
 
     // This function fetches the variables from the Requested Item and turns it into a stringified JSON object for the environment elemnet on SemaphoreUI REST API
-    _semSetRequestBody: function(playbook, rSysId) {
+    _semSetRequestBody: function(playbook, rSysId, tempId) {
         // Fetch variables for the environment
         var attr = {};
         var ritm = new GlideRecord('sc_req_item');
@@ -89,7 +89,7 @@ piFroxUtils.prototype = {
         var jAttr = JSON.stringify(attr);
         // Build HTML Body for REST API Payload
         var body = {};
-        body.template_id = 1;
+        body.template_id = tempId;
         body.debug = false;
         body.dry_run = false;
         body.diff = false;
@@ -99,7 +99,7 @@ piFroxUtils.prototype = {
         return body;
     },
 
-	// This function returns the Ansible playbook from the Requested Item variables
+	// This function returns the Ansible Playbook from the Requested Item variables
 	_semGetPlaybook: function(ritmSysId) {
 		var playbook = '';
 		var ritm = new GlideRecord('sc_req_item');
@@ -108,19 +108,28 @@ piFroxUtils.prototype = {
 		return playbook;
 	},
 
+	// This function returns the Ansible Template ID from the Requested Item variables
+	_semGetTemplateId: function(ritmSysId) {
+		var tempId = '';
+		var ritm = new GlideRecord('sc_req_item');
+		ritm.get(ritmSysId);
+		tempId = parseInt(ritm.variables.pi_frox_template_id);
+		return tempId;
+	},
+
     type: 'piFroxUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-06 14:18:36</sys_created_on>
         <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>piFroxUtils</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 21:41:15</sys_updated_on>
+        <sys_updated_on>2024-09-14 21:22:55</sys_updated_on>
     </sys_script_include>
 </record_update>
