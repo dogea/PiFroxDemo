@@ -9,8 +9,8 @@
         <name>piFroxUtils</name>
         <script><![CDATA[var piFroxUtils = Class.create();
 piFroxUtils.prototype = {
+	// Fetch the System properties to trigger the interface
     initialize: function() {
-        // fetch the System properties to trigger the interface
         this.uri = gs.getProperty('pi.frox.semaphore.uri');
         this.auth = gs.getProperty('pi.frox.semaphore.auth');
         this.pass = gs.getProperty('pi.frox.semaphore.password');
@@ -123,13 +123,13 @@ piFroxUtils.prototype = {
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-06 14:18:36</sys_created_on>
         <sys_id>9cd4702c47201210a266daf1d16d4386</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>piFroxUtils</sys_name>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_script_include_9cd4702c47201210a266daf1d16d4386</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 21:22:55</sys_updated_on>
+        <sys_updated_on>2024-09-16 08:23:36</sys_updated_on>
     </sys_script_include>
 </record_update>
