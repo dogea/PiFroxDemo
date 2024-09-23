@@ -23,16 +23,16 @@
     var action = g_form.getValue('pi_frox_header_action');
     switch (action) {
         case 'Initialize':
-            g_form.setValue('pi_frox_template_id', 1);
+            g_form.setValue('pi_frox_template_id', 7);
             break;
         case 'Update':
-            g_form.setValue('pi_frox_template_id', 3);
+            g_form.setValue('pi_frox_template_id', 9);
             break;
         case 'Decommission':
-            g_form.setValue('pi_frox_template_id', 2);
+            g_form.setValue('pi_frox_template_id', 10);
             break;
         default:
-            g_form.setValue('pi_frox_template_id', 1);
+            g_form.setValue('pi_frox_template_id', 7);
     }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -41,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>79d7d70747601210a266daf1d16d4330</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>piFroxSetTemplateId</sys_name>
         <sys_overrides/>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
@@ -49,7 +49,7 @@
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>catalog_script_client_79d7d70747601210a266daf1d16d4330</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 21:18:33</sys_updated_on>
+        <sys_updated_on>2024-09-18 20:06:41</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

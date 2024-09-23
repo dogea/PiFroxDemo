@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e78f30e47641210a266daf1d16d43d5</sys_id>
-        <sys_mod_count>56</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>pi_frox_semaphore_request_action</sys_name>
         <sys_overrides/>
         <sys_package display_value="PiFroxDemo" source="2e52d73947909210a266daf1d16d43f5">2e52d73947909210a266daf1d16d43f5</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9e78f30e47641210a266daf1d16d43d5</sys_update_name>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:07:11</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -593,10 +593,10 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-12 12:32:59</sys_created_on>
         <sys_id>4d5657de47201210a266daf1d16d43c2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 20:50:08</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:06:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d5657de47201210a266daf1d16d43c2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -607,10 +607,10 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-12 12:32:59</sys_created_on>
         <sys_id>155657de47201210a266daf1d16d43ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-12 12:32:59</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"Application/JSON"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Cookie","value":"semaphore=MTcyNTcwNjEwOHxKRUVZYmVMNTg1TW5vc1NjQlRaS01nT0dLaFNFbUpfS19WbV93djhIdUs1eVRLMHNmQ3JiX19ZMlloalJ2TnpUNlpXajlRVTNPUzBLMlp3SGdIRS1mQT09fB2z_Nrc_3IPe2YwaecTzOa8-Qgu0EtRAIFvxOo7Z3az"}]}</value>
+        <sys_updated_on>2024-09-18 21:06:54</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"Application/JSON"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Cookie","value":"semaphore=MTcyNjY5MzU1N3xDbkwtZnl2d0ozYW9JR29oVkNLSDJ5RTlhazNRYkJDaHhwaXRmb0pWb25pVFpTTjJrSXhWYTM3TVlzQlg4WGstOHc1UnVTbHgzRnYyaW9RWDhhWXoyQT09fKCtKS6WPDhA4yo6nKl1VloVK7qq2Si2lMZrYRkP0PaK"}]}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1019,7 +1019,20 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
     <sys_translated_text action="delete_multiple" query="documentkey=4d5657de47201210a266daf1d16d43c2"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=4d5657de47201210a266daf1d16d43c2"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=4d5657de47201210a266daf1d16d43c2"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=4d5657de47201210a266daf1d16d43c2^sys_idNOT IN848a063647e01210a266daf1d16d43b8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d5657de47201210a266daf1d16d43c2^sys_idNOT IN251cfb1847705210a266daf1d16d4322,848a063647e01210a266daf1d16d43b8"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>base_url</input_name>
+        <instance>4d5657de47201210a266daf1d16d43c2</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"base_url":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar uri \u003d gs.getProperty(\u0027pi.frox.semaphore.uri\u0027);\nreturn uri"}}</script>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-18 20:25:48</sys_created_on>
+        <sys_id>251cfb1847705210a266daf1d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-18 20:25:48</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
         <input_name>body</input_name>
@@ -1440,14 +1453,14 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:09</sys_created_on>
         <sys_id>b209b3ce47641210a266daf1d16d43d4</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 20:29:51</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:07:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1597,17 +1610,17 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="pi_frox_semaphore_request_action">9e78f30e47641210a266daf1d16d43d5</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8709f3ce47641210a266daf1d16d43dc","name":"plan","plan_signature":null}}</plan>
-        <snapshot>36a697c347601210a266daf1d16d43a1</snapshot>
+        <snapshot>3b85842847b05210a266daf1d16d435d</snapshot>
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8709f3ce47641210a266daf1d16d43dc</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 20:29:56</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:07:12</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1697,10 +1710,10 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-12 12:36:27</sys_created_on>
         <sys_id>bb175b1247601210a266daf1d16d43c2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-13 20:52:20</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:07:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb175b1247601210a266daf1d16d43c2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1879,10 +1892,10 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-12 12:36:27</sys_created_on>
         <sys_id>f3175b1247601210a266daf1d16d43e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-12 12:36:27</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"Application/JSON"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Cookie","value":"semaphore=MTcyNTcwNjEwOHxKRUVZYmVMNTg1TW5vc1NjQlRaS01nT0dLaFNFbUpfS19WbV93djhIdUs1eVRLMHNmQ3JiX19ZMlloalJ2TnpUNlpXajlRVTNPUzBLMlp3SGdIRS1mQT09fB2z_Nrc_3IPe2YwaecTzOa8-Qgu0EtRAIFvxOo7Z3az"}]}</value>
+        <sys_updated_on>2024-09-18 21:07:10</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"Application/JSON"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Cookie","value":"semaphore=MTcyNjY5MzU1N3xDbkwtZnl2d0ozYW9JR29oVkNLSDJ5RTlhazNRYkJDaHhwaXRmb0pWb25pVFpTTjJrSXhWYTM3TVlzQlg4WGstOHc1UnVTbHgzRnYyaW9RWDhhWXoyQT09fKCtKS6WPDhA4yo6nKl1VloVK7qq2Si2lMZrYRkP0PaK"}]}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2123,7 +2136,20 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
     <sys_translated_text action="delete_multiple" query="documentkey=bb175b1247601210a266daf1d16d43c2"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=bb175b1247601210a266daf1d16d43c2"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=bb175b1247601210a266daf1d16d43c2"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bb175b1247601210a266daf1d16d43c2^sys_idNOT IN638a863647e01210a266daf1d16d43cd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb175b1247601210a266daf1d16d43c2^sys_idNOT IN4c3cbf1847705210a266daf1d16d4371,638a863647e01210a266daf1d16d43cd"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>base_url</input_name>
+        <instance>bb175b1247601210a266daf1d16d43c2</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"base_url":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar uri \u003d gs.getProperty(\u0027pi.frox.semaphore.uri\u0027);\nreturn uri"}}</script>
+        <sys_created_by>david.ogea</sys_created_by>
+        <sys_created_on>2024-09-18 20:26:14</sys_created_on>
+        <sys_id>4c3cbf1847705210a266daf1d16d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.ogea</sys_updated_by>
+        <sys_updated_on>2024-09-18 20:26:14</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
         <input_name>body</input_name>
@@ -3023,14 +3049,14 @@ outputs.rbody = JSON.stringify(pfu._semSetRequestBody(inputs.var_playbook, input
         <sys_created_by>david.ogea</sys_created_by>
         <sys_created_on>2024-09-11 20:26:10</sys_created_on>
         <sys_id>cb09f3ce47641210a266daf1d16d4398</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PiFroxDemo">2e52d73947909210a266daf1d16d43f5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>david.ogea</sys_updated_by>
-        <sys_updated_on>2024-09-14 20:29:54</sys_updated_on>
+        <sys_updated_on>2024-09-18 21:07:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
